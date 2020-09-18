@@ -2,6 +2,8 @@
 order: 2
 nav:
   title: 指南
+group:
+  title: 入门
 ---
 
 # 可用的脚本
