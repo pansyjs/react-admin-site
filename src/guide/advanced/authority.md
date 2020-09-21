@@ -8,7 +8,7 @@ group:
 
 # 权限管理
 
-权限控制是中后台系统中常见的需求之一，你可以利用我们提供 umi 插件 [@alitajs/plugin-authority](https://github.com/alitajs/umi-plugins/tree/master/packages/umi-plugin-authority) 来实现权限控制功能
+权限控制是中后台系统中常见的需求之一，你可以利用我们提供 umi 插件 [@alitajs/umi-plugin-authority](https://github.com/alitajs/umi-plugins/tree/master/packages/umi-plugin-authority) 来实现权限控制功能
 
 > 该插件基于umi@3开发
 
