@@ -5,7 +5,7 @@ hero:
   desc: A magical react admin
   actions:
     - text: 快速上手 →
-      link: /guide/getting-started
+      link: /guide/base/getting-started
 features:
   - icon: https://gw.alipayobjects.com/zos/rmsportal/VriUmzNjDnjoFoFFZvuh.svg
     title: 优雅美观

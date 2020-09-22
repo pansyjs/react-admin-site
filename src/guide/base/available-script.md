@@ -4,6 +4,7 @@ nav:
   title: 指南
 group:
   title: 入门
+  order: 1
 ---
 
 # 可用的脚本
