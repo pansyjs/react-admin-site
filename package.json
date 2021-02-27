@@ -11,7 +11,7 @@
     "build": "dumi build"
   },
   "devDependencies": {
-    "dumi": "1.1.4",
+    "dumi": "1.1.7",
     "typescript": "4.1.3"
   }
 }
