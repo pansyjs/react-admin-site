@@ -1705,6 +1705,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.23.tgz#676fa0883450ed9da0bb24156213636290892806"
   integrity sha512-Z4U8yDAl5TFkmYsZdFPdjeMa57NOvnaf1tljHzhouaPEp7LCj2JKkejpI1ODviIAQuW4CcQmxkQ77rnLsOOoKw==
 
+"@types/node@^14.14.28":
+  version "14.14.35"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.35.tgz#42c953a4e2b18ab931f72477e7012172f4ffa313"
+  integrity sha512-Lt+wj8NVPx0zUmUwumiVXapmaLUcAk3yPuHCFVXras9k5VT9TdhJqKqGVUQCD60OTMCl0qxJ57OiTL0Mic3Iag==
+
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -1799,6 +1804,13 @@
   integrity sha512-7WhJ0MdpFgYQPXlF4Dx+DhgvlPCfz/x5mHaeDQAKhcenvQP1KCpLQ18JklAqeGMYSAT2PxLpzd0g2/HE7fj7hQ==
   dependencies:
     "@types/glob" "*"
+    "@types/node" "*"
+
+"@types/sax@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@types/sax/-/sax-1.2.1.tgz#e0248be936ece791a82db1a57f3fb5f7c87e8172"
+  integrity sha512-dqYdvN7Sbw8QT/0Ci5rhjE4/iCMJEM0Y9rHpCu+gGXD9Lwbz28t6HI2yegsB6BoV1sShRMU6lAmAcgRjmFy7LA==
+  dependencies:
     "@types/node" "*"
 
 "@types/semver@7.3.3":
@@ -2135,10 +2147,10 @@
     umi-webpack-bundle-analyzer "3.6.0"
     zlib "1.0.5"
 
-"@umijs/preset-dumi@1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.7.tgz#9f9a616402e19be9cd39f36aefe2bb3152653910"
-  integrity sha512-/YOf+4WzVzVrVX4xyxeZbwsQK4mL7yKP8gxbxsA6+52AS/EvFJDpJpkYfzKEjvi3eVBDkpq5Wy1bx/lmLx0kTw==
+"@umijs/preset-dumi@1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.8.tgz#a775e7273f448dbb38fc3137e9799894fe037311"
+  integrity sha512-qPI/zYI108ALZRpKhx04CtvTGR9gcpFuRVrSw8ZP9GPRq88QiqnIvuTqHjPrVKPRDQo43Qfr+65wbuBxLqcTGw==
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/generator" "^7.7.2"
@@ -2154,7 +2166,7 @@
     copy-text-to-clipboard "^2.2.0"
     deepmerge "^4.2.2"
     dumi-assets-types "1.0.0"
-    dumi-theme-default "1.0.7"
+    dumi-theme-default "1.0.8"
     enhanced-resolve "^4.1.1"
     github-slugger "^1.3.0"
     hast-util-has-property "^1.0.4"
@@ -2177,6 +2189,7 @@
     remark-parse "^9.0.0"
     remark-rehype "^8.0.0"
     remark-stringify "^9.0.0"
+    sitemap "^6.3.3"
     slash2 "^2.0.0"
     terser "^5.5.1"
     unified "^8.4.1"
@@ -2666,6 +2679,11 @@ arch@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/arch/-/arch-2.1.2.tgz#0c52bbe7344bb4fa260c443d2cbad9c00ff2f0bf"
   integrity sha512-NTBIIbAfkJeIletyABbVtdPgeKfDafR+1mZV/AyyfC1UkVkp9iUjV+wwmqtUgphHYajbI86jejBJp5e+jkGTiQ==
+
+arg@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/arg/-/arg-5.0.0.tgz#a20e2bb5710e82950a516b3f933fee5ed478be90"
+  integrity sha512-4P8Zm2H+BRS+c/xX1LrHw0qKpEhdlZjLCgWy+d78T9vqa2Z2SiD2wMrYuWIAFy5IZUD7nnNXroRttz+0RzlrzQ==
 
 argparse@^1.0.7:
   version "1.0.10"
@@ -4233,21 +4251,21 @@ dumi-assets-types@1.0.0:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-1.0.0.tgz#d5368cb11045b203bf1ef1080e553b2287a2ec81"
   integrity sha512-7nhSeWM15vybbUAMPLZsdls2jKoHB2UU4P1RM6kLPucuS8eC/HSmufquFqTTYtX4oIDLHGtil/dVtMreNGwhdA==
 
-dumi-theme-default@1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/dumi-theme-default/-/dumi-theme-default-1.0.7.tgz#55fc5cf9c4462668c8b2c51642fec506d822bee9"
-  integrity sha512-OSlNa6Eaxpty7c62Kg7EWFZj+92Lwcai0/SzlzwK8ZMgPyEoarrlvzMujDxplPQjkZyLq9f0Yo5P+nVwTlFv7Q==
+dumi-theme-default@1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/dumi-theme-default/-/dumi-theme-default-1.0.8.tgz#a7b3817ff49c453bc19095835544154499205b91"
+  integrity sha512-UX/oaPbBN/Cn0fgQm1VXu+Ylu1+ZN8gH1LWdW9Hu5itPp1YrTZmnvkXxBmLDZRcfnPlV0VCXvn6cfo0eEhHM0A==
   dependencies:
     prism-react-renderer "^1.1.1"
     prismjs "^1.21.0"
     rc-tabs "^11.7.1"
 
-dumi@1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.7.tgz#792064e16611fef60123bd8a8999cdd4ca95e625"
-  integrity sha512-N97AI/LhSe2NL+RssxfT+XOLYZVteMivSYtkLIdC51+olpGw/9RS4SDQphX9UbvapbYYBqd3gFqVvYhVCFJtVA==
+dumi@1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.8.tgz#3c4a686a130d3b0ba22154db9a4793623626caf6"
+  integrity sha512-aO77dk3jJ+5tUDVYBvFr5ZisxIrAvKkN3a3Db3VlfLasgjN7/Etfi33BZ8OuHxWVkjJj6gssUE1TMEjsR0py3g==
   dependencies:
-    "@umijs/preset-dumi" "1.1.7"
+    "@umijs/preset-dumi" "1.1.8"
     umi "^3.0.0"
 
 duplexer3@^0.1.4:
@@ -8939,7 +8957,7 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sax@~1.2.4:
+sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
@@ -9156,6 +9174,16 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
+
+sitemap@^6.3.3:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/sitemap/-/sitemap-6.4.0.tgz#b4bc4edf36de742405a7572bc3e467ba484b852e"
+  integrity sha512-DoPKNc2/apQZTUnfiOONWctwq7s6dZVspxAZe2VPMNtoqNq7HgXRvlRnbIpKjf+8+piQdWncwcy+YhhTGY5USQ==
+  dependencies:
+    "@types/node" "^14.14.28"
+    "@types/sax" "^1.2.1"
+    arg "^5.0.0"
+    sax "^1.2.4"
 
 slash2@^2.0.0:
   version "2.0.0"
