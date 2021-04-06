@@ -2147,10 +2147,10 @@
     umi-webpack-bundle-analyzer "3.6.0"
     zlib "1.0.5"
 
-"@umijs/preset-dumi@1.1.9":
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.9.tgz#4249e3bc4e344c910bbcb13a322ef7b685e3f25f"
-  integrity sha512-oUu1fRoJE7VGS03hKpZC5DfhjBDpJgEm4PHjm4UyOvxQGdjaV6hxnViWfkwS5N3+RffkT58Xg+cVeCWVuV33tA==
+"@umijs/preset-dumi@1.1.10":
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.10.tgz#065bad25c2e38f06c79a2dfcd321dc8c3b78f8ad"
+  integrity sha512-wBjwa/joP8IXO4v5zva8qCbxYdcKiBBqD68/VyLK1JHKT80jJKTLRxAdRKnSoi0yL5yzLXdMk7+BOHF0zk4T3g==
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/generator" "^7.7.2"
@@ -2166,7 +2166,7 @@
     copy-text-to-clipboard "^2.2.0"
     deepmerge "^4.2.2"
     dumi-assets-types "1.0.0"
-    dumi-theme-default "1.0.9"
+    dumi-theme-default "1.0.10"
     enhanced-resolve "^4.1.1"
     github-slugger "^1.3.0"
     hast-util-has-property "^1.0.4"
@@ -4251,21 +4251,21 @@ dumi-assets-types@1.0.0:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-1.0.0.tgz#d5368cb11045b203bf1ef1080e553b2287a2ec81"
   integrity sha512-7nhSeWM15vybbUAMPLZsdls2jKoHB2UU4P1RM6kLPucuS8eC/HSmufquFqTTYtX4oIDLHGtil/dVtMreNGwhdA==
 
-dumi-theme-default@1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/dumi-theme-default/-/dumi-theme-default-1.0.9.tgz#f442cdab7decbfe5e5c51f60c177d6577eece77c"
-  integrity sha512-ZxOwIa7v9R5cNBhirmMhDjdy9xrZ/Vq3Q/PNpF5W3OxM4PzFAPOdyKDXTTc/HLkXvuIlWHVdeX6q6TcDrrGVNg==
+dumi-theme-default@1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/dumi-theme-default/-/dumi-theme-default-1.0.10.tgz#8f2da347da16e61889b5fd3a3601c805ac8a70d0"
+  integrity sha512-Hdy3jbVk+ocQSYFXLYR/7HW4NK04VhwDxvpvvLuCzTP9Hq7ZQUCjRhOjYbk3/H+QwDECKVkGP99IgeKtAsTdQg==
   dependencies:
     prism-react-renderer "^1.1.1"
     prismjs "^1.21.0"
     rc-tabs "^11.7.1"
 
-dumi@1.1.9:
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.9.tgz#11bafd95cb4957150a478151bfc92c9e0fb1a808"
-  integrity sha512-oZACagbrK/6vPdhdy9wui1B7ARvNKQtVaDEzzd+wGhd9lXQ6OdVM5MrCHflZmM6We1tJEnwkQTS52ZxGLWTHDQ==
+dumi@1.1.10:
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.10.tgz#12605cdc33a10f4d2396f886ddd9011698c29b5b"
+  integrity sha512-qLxnMci1duHCelDDfATYpgjoM2dQ1dsL6z/e+Ve8uPyruRQKFjo5qojAUFuv++/GPUCmmeZRgB/Do7FbA5T4Xw==
   dependencies:
-    "@umijs/preset-dumi" "1.1.9"
+    "@umijs/preset-dumi" "1.1.10"
     umi "^3.0.0"
 
 duplexer3@^0.1.4:
